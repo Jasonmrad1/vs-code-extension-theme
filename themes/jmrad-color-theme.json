@@ -27,7 +27,7 @@
 		"statusBarItem.remoteForeground": "#FFF",
 		"statusBarItem.remoteBackground": "#16825D",
 
-		// Blue-violet cursor
+		"statusBar.background": "#292929",          // match editor background
 		"editorCursor.foreground": "#82AAFF" 
 	},
 	"tokenColors": [
