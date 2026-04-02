@@ -101,6 +101,15 @@
 		},
 		{
 		"scope": [
+			"entity.name.type",
+			"entity.name.namespace",
+			"storage.type.namespace.definition",
+			"entity.name.scope-resolution"
+		],
+		"settings": { "foreground": "#66B5F6" }
+		},
+		{
+		"scope": [
 			"punctuation.definition.template-expression",
 			"punctuation.section.embedded"
 		],
