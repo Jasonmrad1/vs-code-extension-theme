@@ -2,7 +2,7 @@
   "name": "jmrad",
   "displayName": "JMrad Dark Theme",
   "description": "Dark VS Code theme",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "publisher": "JasonMrad",
   "engines": {
     "vscode": "^1.110.0"

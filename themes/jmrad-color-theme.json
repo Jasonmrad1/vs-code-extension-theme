@@ -90,7 +90,7 @@
 		},
 		// Normal string literals (green)
 		{
-		"scope": ["string.quoted.double", "string.quoted.single", "string.constant"],
+		"scope": ["string.quoted.double", "string.quoted.single", "string.constant", "string.template", "string.quoted.template"],
 		"settings": { "foreground": "#8DDC8A" }  // soft green
 		},
 
@@ -99,13 +99,15 @@
 		"scope": ["string.quoted.other", "string support", "string keyword"],
 		"settings": { "foreground": "#9DCDF5" }  // VS Code blue
 		},
-		
 		{
-			"scope": ["constant.language"],
-			"settings": { "foreground": "#0086b3" }
+		"scope": [
+			"punctuation.definition.template-expression",
+			"punctuation.section.embedded"
+		],
+		"settings": { "foreground": "#bb97e7" }
 		},
 		{
-			"scope": ["constant.other", "support.constant"],
+			"scope": ["constant.language", "constant.other", "support.constant"],
 			"settings": { "foreground": "#66B5F6" }
 		},
 		{
